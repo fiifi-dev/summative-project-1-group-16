@@ -29,12 +29,6 @@ paths:
       tags:
         - definition-controller
       operationId: getRandomDefinition
-      parameters:
-        - name: question
-          in: query
-          required: true
-          schema:
-            type: string
       responses:
         '200':
           description: OK
