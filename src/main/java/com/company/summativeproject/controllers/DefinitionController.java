@@ -28,7 +28,7 @@ public class DefinitionController {
 
     @RequestMapping(value = "/word", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    private Definition getRandomDefinition(@RequestBody String question) {
+    private Definition getRandomDefinition() {
         Random random = new Random();
         int randomIndex = random.nextInt(definitions.size());
 
