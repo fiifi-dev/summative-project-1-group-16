@@ -1,7 +1,7 @@
 package com.company.summativeproject.controllers;
 
+import com.company.summativeproject.models.Quote;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -24,29 +24,5 @@ public class QuoteController {
     public Quote getQuote() {
         int randomIndex = (int) (Math.random() * quotes.length);
         return quotes[randomIndex];
-    }
-
-    private static class Quote {
-        private int id;
-        private String author;
-        private String quote;
-
-        public Quote(int id, String author, String quote) {
-            this.id = id;
-            this.author = author;
-            this.quote = quote;
-        }
-
-        public int getId() {
-            return id;
-        }
-
-        public String getAuthor() {
-            return author;
-        }
-
-        public String getQuote() {
-            return quote;
-        }
     }
 }
