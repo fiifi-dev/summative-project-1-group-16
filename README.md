@@ -5,6 +5,11 @@ Contributors
     Robert Velasquez
     Dickson Afful
     Riley Morris
+    
+# Video Showing Working Applicaion: 
+- As the original video is over 3 minutes long, we have provided a sped up (1.5x) version to satisfy the requirements. However, the original video will be included also. 
+
+
 
 # REST API Project
 
