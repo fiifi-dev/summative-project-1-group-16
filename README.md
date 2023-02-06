@@ -5,11 +5,6 @@ Contributors
     Robert Velasquez
     Dickson Afful
     Riley Morris
-    
-# Video Showing Working Applicaion: 
-- As the original video is over 3 minutes long, we have provided a sped up (1.5x) version to satisfy the requirements. However, the original video will be included also. 
-
-
 
 # REST API Project
 
@@ -146,5 +141,9 @@ For this project, your grade will consist of a combination of general setup and 
 - Code: `400 Bad Request`
 - Content: An error message indicating that the question parameter is missing from the request.
 
-
+# Video Showing Working Applicaion: 
+- As the original video is over 3 minutes long, we have provided a sped up (1.5x) version to satisfy the requirements. However, the original video will be included also. 
+<video autoplay loop style="width:100%; height: auto; position:absolute; z-index: -1;">
+  <source src="https://github.com/fiifi-dev/summative-project-1-group-16/blob/master/3%20minute%20video%20-%201.5%20speed.mp4" type="video/mp4" />
+ </video>
 
