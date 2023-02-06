@@ -118,7 +118,7 @@ For this project, your grade will consist of a combination of general setup and 
 
 ## API Endpoint
 
-- **URL**: `/api/magic8ball/predict`
+- **URL**: `/magic`
 
 - **Method**: `POST`
 
