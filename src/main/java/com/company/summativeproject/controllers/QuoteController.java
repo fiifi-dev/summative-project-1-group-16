@@ -4,6 +4,8 @@ import com.company.summativeproject.models.Quote;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 @RestController
 public class QuoteController {
 
@@ -22,7 +24,8 @@ public class QuoteController {
 
     @GetMapping("/quote")
     public Quote getQuote() {
-        int randomIndex = (int) (Math.random() * quotes.length);
+        Random random = new Random();
+        int randomIndex = random.nextInt(quotes.length);
         return quotes[randomIndex];
     }
 }
