@@ -148,4 +148,4 @@ For this project, your grade will consist of a combination of general setup and 
 
 5 minute video: https://github.com/fiifi-dev/summative-project-1-group-16/blob/master/5%20min%20video%20-%201.0%20speed.mp4
 
-
+5 minutes video: Dickson Afful: https://youtu.be/rIF0_oIbyoQ
